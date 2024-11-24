@@ -123,7 +123,7 @@ const Hero = () => {
             onLoadedData={handleVideoLoad}
           />
           <video
-            // autoPlay
+            autoPlay
             loop
             muted
             className="absolute-center left-0 top-0 size-full object-cover object-center"
