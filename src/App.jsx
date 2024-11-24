@@ -2,6 +2,7 @@ import Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
 import About from './components/About.jsx';
 import Features from './components/Features.jsx';
+import Story from './components/Story.jsx';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <About />
       <Features />
+      <Story />
     </main>
   );
 }
